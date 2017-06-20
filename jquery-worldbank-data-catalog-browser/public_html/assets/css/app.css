@@ -1,0 +1,22 @@
+/* 
+    Created on : 20-Jun-2017, 10:17:27
+    Author     : Sammy N Ukavi Jr
+*/
+#datacatalog{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#catalogList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#catalogList li{
+    border-bottom: 1px solid #ccc;
+}
+
+ul#catalogList li .title{
+    font-weight: bold;
+    cursor: pointer;
+}
