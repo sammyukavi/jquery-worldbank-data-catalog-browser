@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>World Bank API Consumer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <button name="loadCatalog" id="loadCatalog">Load Catalog</button>
+            Results per page
+            <input type="text" name="resultsPerPage" id="resultsPerPage"/>
+            <select id="pages" name="pages"><option>Jump to page</option></select>
+            <div id="pageIndicator"></div>
+        </div>
+        <div>
+            <input type="text" name="search" id="search"/>
+            <button name="searchCatalog" id="searchCatalog">Search</button>
+        </div>
+        <div id="datacatalog">
+            
+        </div>
+        <script src="assets/libs/jquery/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="assets/js/app.js" type="text/javascript"></script>
+    </body>
+</html>
